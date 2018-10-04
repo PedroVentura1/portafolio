@@ -1,0 +1,76 @@
+section{
+	float: left;
+	margin-top: 5%;
+    line-height: 2.4em;
+    font-size: 20pt;    
+}
+section p::first-letter {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+head{
+	float: left;
+}
+body{
+	margin: 8%;
+	/*position: absolute;*/
+    font-family:gothamhtf-book;
+    font-size: 1.5em;
+    color: #4A4A4A;
+}
+.menu{	
+	width: 100%;
+	float: left;
+}
+.menu img{
+	border-radius: 0!important;
+	width: 10%!important;
+	height: 74px!important;
+	border: none!important;
+}
+
+.envolve h1{
+	/*border: 1px solid red;*/
+    width: 45%;
+    float: left;
+    margin-bottom: 0px;
+}
+.envolve h3{
+    float: left;    
+    width: 40%;
+    font-size: 32pt;
+}
+.envolve h4{
+	    border: 1px solid blue;
+    width: 40%;
+    float: left;
+}
+.envolve .menu{
+	margin-bottom: 2%;
+}
+.envolve img	{
+	 float: left;
+    margin-right:10%;
+	width: 160px;    
+    height: 160px;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+.collage img{
+	margin: auto;    
+    display: block;
+    width: 60%;
+}
+
+@font-face {
+  font-family: "gothamhtf-book";
+  src:url("fonts/gothamhtf-book.eot");
+  src:url("fonts/gothamhtf-book.eot?#iefix") format("embedded-opentype"),
+    url("fonts/gothamhtf-book.ttf") format("truetype"),
+    url("fonts/gothamhtf-book.woff") format("woff"),
+    url("fonts/gothamhtf-book.svg#gothamhtf-book-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
